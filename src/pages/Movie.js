@@ -18,9 +18,9 @@ function Movie() {
     <>
       <header>
         <NavBar />
-        <h1>{movie.title}</h1>
       </header>
       <main>
+        <h1>{movie.title}</h1>
         <p>{movie.time}</p>
         {movie.genres && movie.genres.map((genre, index) => (
           <span key={index}>{genre}</span>

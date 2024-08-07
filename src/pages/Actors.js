@@ -19,9 +19,7 @@ function Actors() {
         {actors && actors.map(actor => (
           <article key={actor.id}>
             <h2>{actor.name}</h2>
-            <ul>
               <li>{actor.movies}</li>
-            </ul>
           </article>
         ))}
       </main>

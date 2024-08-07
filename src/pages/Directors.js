@@ -20,11 +20,9 @@ function Directors() {
         {directors && directors.map(director => (
           <article key={director.id}>
             <h2>{director.name}</h2>
-            <ul>
               <li>
               {director.movies}
               </li>
-            </ul>
           </article>
         ))}
       </main>
